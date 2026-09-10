@@ -63,7 +63,7 @@ WHERE email IS NULL
 
 7.2
 INSERT INTO tanulok (id, nev, osztaly, eletkor, varos, atlag, hianyzas, osztondijas)
-VALUES (9, "Kovács Emma", "10.A", 16, "Budapest", 4.0, 3, 0
+VALUES (9, "Kovács Emma", "10.A", 16, "Budapest", 4.0, 3, 0)
 SELECT * FROM tanulok
 WHERE nev = "Kovács Emma"
 
