@@ -56,3 +56,5 @@ WHERE cim LIKE "%a%"
 SELECT cim, korhatar, jegyar, ertekeles FROM filmek
 WHERE jegyar <= 2500 && magyar_szinkron = 1 && korhatar <= 12
 ORDER BY ertekeles DESC
+
+6.7
